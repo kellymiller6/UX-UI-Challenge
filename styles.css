@@ -155,10 +155,10 @@ body{
 }
 
 .directions{
-  margin-top: 20px;
+  margin-top: 180px;
   text-align: center;
   width: 70%;
-  margin: 5px;
+  /*margin: 5px;*/
   border: 5px solid #7A9E9F;
   background-color: white;
   padding: 5px 10px 20px 10px
@@ -172,4 +172,58 @@ body{
 .directions p{
   margin-bottom: 2px;
   color: #7A9E9F;
+}
+
+@media screen and (max-width: 1620px) {
+  .nav-btn {
+    margin: 45px;
+    margin-top: 0px;
+  }
+
+  .navigation {
+    margin-bottom: 5px;
+  }
+
+  .directions {
+    height: 30%;
+    margin-top: 90px;
+  }
+
+  .quote {
+    margin-bottom: 15px;
+  }
+
+  .date {
+    height: 50px;
+  }
+
+  .goal {
+    height: 30px;
+  }
+
+  .calendar {
+    margin-bottom: 50px;
+  }
+
+  .goal-tracker {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .nav-btn {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .wall-push-img {
+    width: 100px;
+    height: 100px;
+  }
 }
